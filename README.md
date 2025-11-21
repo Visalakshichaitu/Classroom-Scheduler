@@ -94,8 +94,10 @@ pip install PyQt5 PyQtChart
 ```bash
 python classroom_scheduler.py
 ```
-Run using:
+### 3. Run using:
 
+```bash
 python classroom_scheduler.py
+```
 
-Click “Generate New Schedule” to create and optimize timetables.
+### Click “Generate New Schedule” to create and optimize timetables.
