@@ -73,28 +73,27 @@ The optimizer tries to minimize an energy function, where lower energy represent
 
 Components of Energy:
 ✔ Classroom Coverage
-
 Each section should ideally use all classrooms across the week.
 Deviation → penalty applied.
 
 ✔ Classroom Load Balancing
-
 All classrooms should be used roughly the same number of times.
 Imbalance → penalty increases.
 
 ⚙️ Installation & Setup
-1. Install Required Libraries
+### 1. Install Dependencies
 
-Make sure Python 3.x is installed, then run:
+Open your terminal and run:
 
+```bash
 pip install PyQt5 PyQtChart
+```
 
-2. Run the Application
+### 2. Run the Application
 
-Save the file as:
-
-classroom_scheduler.py
-
+```bash
+python classroom_scheduler.py
+```
 Run using:
 
 python classroom_scheduler.py
