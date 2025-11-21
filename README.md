@@ -67,6 +67,8 @@ This application is a single-file system containing:
 | **SchedulerGUI**                | PyQt5 interface, tables, charts, and event handling       |
 
 
+🧠 How the Optimization Works
+
 The optimizer tries to minimize an energy function, where lower energy represents a more balanced and fair schedule.
 
 Components of Energy:
@@ -93,16 +95,8 @@ Save the file as:
 
 classroom_scheduler.py
 
-
 Run using:
 
 python classroom_scheduler.py
 
-
 Click “Generate New Schedule” to create and optimize timetables.
-
-📈 Example Evaluation (Fill after running)
-Metric	Initial (Greedy)	After SA	Improvement
-Energy Score	—	—	—
-Iterations	—	1000	—
-Cooling Rate	—	0.995	—
